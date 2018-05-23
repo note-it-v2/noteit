@@ -13,6 +13,7 @@ if(!window.Highlight){
     }else if(document.selection){
       t = document.selection.createRange().text;
     }
+    console.log(t);
     return t;
   }
   
